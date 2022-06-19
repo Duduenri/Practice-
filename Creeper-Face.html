@@ -1,0 +1,34 @@
+<canvas width= "600" height="400" ></canvas>
+
+<script>
+
+	var canva = document.querySelector('canvas');
+	var pincel = canva.getContext('2d');
+
+		// X, Y , Largura e altura
+ 
+	//cabeça
+	pincel.fillStyle = 'green'
+	pincel.fillRect(0, 0, 350, 300);
+
+	//olho 1
+	pincel.fillStyle = 'black'
+	pincel.fillRect(60, 60, 90, 90);
+
+	//olho 2
+	pincel.fillStyle = 'black'
+	pincel.fillRect(210, 60, 90, 90);
+		
+	//nariz
+	pincel.fillStyle = 'black'
+	pincel.fillRect(140, 140, 70, 100);
+
+	//parte da boca 1
+	pincel.fillStyle = 'black'
+	pincel.fillRect(100, 190, 40, 110);
+
+	//parte da boca 2
+	pincel.fillStyle = 'black'
+	pincel.fillRect(210, 190, 40, 110);
+
+</script> 
